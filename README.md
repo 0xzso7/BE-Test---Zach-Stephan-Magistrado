@@ -1,11 +1,9 @@
 # BE Test – Zach Stephan Magistrado
 
-This repository contains my solution for the **Backend Engineering Test**, which includes:
+This repository contains my coding solutions for the **Backend Engineering Test**, which includes:
 
-1. **Tuple Shuffling Pseudocode**
-2. **JSON Restructuring (Section A → Section B)**
-3. **Accelerometer Data Processing Strategy**
-4. **API Server Implementation** with Node.js & Express
+1. **JSON Restructuring (Section A → Section B)**
+2. **API Server Implementation** with Node.js & Express
 
 ---
 
