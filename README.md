@@ -1,6 +1,6 @@
 # BE Test – Zach Stephan Magistrado
 
-This repository contains my solution for the **Back-End Test**, which includes:
+This repository contains my solution for the **Backend Engineering Test**, which includes:
 
 1. **Tuple Shuffling Pseudocode**
 2. **JSON Restructuring (Section A → Section B)**
