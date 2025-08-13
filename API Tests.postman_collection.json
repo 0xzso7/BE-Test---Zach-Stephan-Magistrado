@@ -7,7 +7,7 @@
 	},
 	"item": [
 		{
-			"name": "test 1 - /api/login",
+			"name": "test 1 - /api/login - abacca",
 			"request": {
 				"method": "POST",
 				"header": [],
@@ -36,7 +36,7 @@
 			"response": []
 		},
 		{
-			"name": "test 2 - /api/login",
+			"name": "test 2 - /api/login - Cabbie",
 			"request": {
 				"method": "POST",
 				"header": [],
@@ -65,7 +65,7 @@
 			"response": []
 		},
 		{
-			"name": "test 3 - /api/login",
+			"name": "test 3 - /api/login - Acaiberrycake",
 			"request": {
 				"method": "POST",
 				"header": [],
@@ -95,9 +95,21 @@
 		},
 		{
 			"name": "test 4 - /api/letters",
+			"protocolProfileBehavior": {
+				"disableBodyPruning": true
+			},
 			"request": {
 				"method": "GET",
 				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
 				"url": {
 					"raw": "http://localhost:8000/api/letters",
 					"protocol": "http",
@@ -114,7 +126,7 @@
 			"response": []
 		},
 		{
-			"name": "test 5 - /api/letter/add",
+			"name": "test 5 - /api/letter/add - C,3,4,true",
 			"request": {
 				"method": "POST",
 				"header": [],
@@ -144,7 +156,7 @@
 			"response": []
 		},
 		{
-			"name": "test 6 - /api/letter/<letter:str>>",
+			"name": "test 6 - /api/letter/<letter:str>> - A",
 			"request": {
 				"method": "GET",
 				"header": [],
@@ -186,7 +198,7 @@
 			"response": []
 		},
 		{
-			"name": "test 8 - /api/letter/filter/<val:int>",
+			"name": "test 8 - /api/letter/filter/<val:int> - 2",
 			"request": {
 				"method": "GET",
 				"header": [],
