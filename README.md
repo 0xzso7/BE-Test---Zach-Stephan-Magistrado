@@ -128,6 +128,61 @@ http://localhost:8000/api/letter/filter/1
 
 ---
 
+##Postman Collection
+
+A Postman collection is included for quick testing of the API endpoints.
+
+File: ``` API_Tests.postman_collection.json ```
+
+**How to Import:**
+
+1. Open Postman.
+2. Click File → Import.
+3. Select the API_Tests.postman_collection.json file.
+
+**Preview:**
+``` json
+{
+	"info": {
+		"_postman_id": "1d107ce0-ba51-40b7-8095-f2c497d805dd",
+		"name": "API Tests",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "42485853"
+	},
+	"item": [
+		{
+			"name": "test 1 - /api/login - abacca",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n \"username\": \"abacca\",\n \"password\": \"accaba\"\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:8000/api/login",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8000",
+					"path": [
+						"api",
+						"login"
+					]
+				}
+			},
+			"response": []
+		}, ...
+```
+
+---
+
 ## Notes:
 1. *hierarchy.js* can be run independently to test JSON restructuring logic.
 2. *server.js* implements the API and must have Express installed before running.
